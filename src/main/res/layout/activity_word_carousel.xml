@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerGroups"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:prompt="@string/select_word_group" />
+
+    <TextView
+        android:id="@+id/textViewWord"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="单词走马灯"
+        android:textSize="24sp"
+        android:background="@drawable/edit_text_background"/>
+
+    <Spinner
+        android:id="@+id/spinnerPronunciation"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:prompt="@string/select_pronunciation" />
+    <TextView
+        android:id="@+id/textViewInterval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="间隔时间: 1500毫秒"
+        android:layout_marginBottom="8dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5000"
+        android:progress="1500"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始走马灯"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

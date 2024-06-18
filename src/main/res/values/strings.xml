@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">单词走马灯</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_word_group">请选择单词组</string>
+    <string name="word_carousel">单词走马灯</string>
+    <string name="select_pronunciation">请选择发音类型</string>
+    <string name="start_carousel">开始走马灯</string>
+    <string name="american_pronunciation">美音</string>
+    <string name="british_pronunciation">英音</string>
+</resources>

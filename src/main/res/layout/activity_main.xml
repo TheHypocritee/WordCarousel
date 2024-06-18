@@ -1,0 +1,73 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="部分Android操作系统走马灯可能无声音" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="使用前请先创建单词组和单词库" />
+    <Button
+        android:id="@+id/buttonWordLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单词库"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/buttonCreateWordGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建单词组"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/buttonWordMarquee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单词走马灯"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/buttonWordCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单词卡片"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/buttonCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日签到"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/buttonBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+
+
+</LinearLayout>

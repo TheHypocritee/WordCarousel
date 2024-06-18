@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="请输入英文单词"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/editTextChinese"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:hint="请输入中文释义"
+        android:background="@drawable/edit_text_background"/>
+
+    <Spinner
+        android:id="@+id/spinnerGroups"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:prompt="@string/select_word_group" />
+
+    <Button
+        android:id="@+id/buttonAddWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加单词"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+<!--    &lt;!&ndash;  select CSV file &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/buttonSelectCSV"-->
+<!--        android:layout_width="376dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="导入单词书(CSV文件格式)" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutWords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

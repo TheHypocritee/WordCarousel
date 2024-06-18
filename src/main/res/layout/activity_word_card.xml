@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerGroups"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:prompt="@string/select_word_group" />
+
+    <TextView
+        android:id="@+id/textViewWord"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="单词翻卡"
+        android:background="@drawable/edit_text_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTranslation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="翻卡显示中文释义"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:textColor="@android:color/white"
+        android:text="下一个单词" />
+
+    <Button
+        android:id="@+id/buttonFlip"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="翻卡" />
+
+</LinearLayout>
